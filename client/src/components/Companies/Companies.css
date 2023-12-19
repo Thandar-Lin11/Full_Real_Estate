@@ -1,0 +1,26 @@
+/* .c-container {
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.c-container > img {
+  width: 9rem;
+} */
+
+.main-container {
+  margin: 10px;
+}
+
+.main-container .container {
+  background-color: var(--blue);
+  padding: 40px 0;
+}
+
+.main-container .container img {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
